@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - SMA Negeri 1 Subah</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <img src="image/logo.png" alt="logo">
+            <h2>SMA NEGERI 1 SUBAH</h2>
+        </div>
+
+        <div class="nav-link">
+            <a href="index.html">HOME</a>
+            <a href="profile.html">PROFILE</a>
+            <a href="akademik.html">AKADEMIK</a>
+            <a href="kesiswaan.html">KESISWAAN</a>
+            <a href="informasi.html">INFORMASI & BERITA</a>
+            <a href="kontak.html">KONTAK</a>
+        </div>
+    </header>
+
+    <div class="halaman-header">
+        <h1>Kontak Kami</h1>
+        <p>Hubungi kami atau kunjungi lokasi sekolah untuk informasi lebih lanjut.</p>
+    </div>
+
+    <section class="bagian-kontak">
+        <div class="info-kontak-grid">
+            <div class="kotak-info-detail">
+                <h2>Informasi Kontak Resmi</h2>
+                <p>Silakan hubungi kami melalui saluran resmi di bawah ini pada jam kerja (Senin - Jumat, 07.00 - 15.00 WIB).</p>
+                
+                <div class="daftar-kontak">
+                    <div class="item-kontak">
+                        <strong>📍 Alamat Lengkap:</strong>
+                        <p>Jl. Raya Jatisari Subah, RT 01 / RW 02, Jatisari, Kec. Subah, Kabupaten Batang, Jawa Tengah, Kode Pos 51262, Indonesia.</p>
+                    </div>
+                    <div class="item-kontak">
+                        <strong>📞 Nomor Telepon:</strong>
+                        <p>(0285) 666240</p>
+                    </div>
+                    <div class="item-kontak">
+                        <strong>✉️ Alamat Email Resmi:</strong>
+                        <p>info@sman1subah.sch.id</p>
+                    </div>
+                    <div class="item-kontak">
+                        <strong>🌐 Tautan Media Sosial:</strong>
+                        <div class="sosmed-links">
+                            <a href="https://www.instagram.com/sma1subah/" target="_blank">Instagram (@sma1subah)</a>
+                            <a href="https://www.youtube.com/channel/UC6E8I1mBIVPqQxbjkTyFKcw" target="_blank">YouTube (SMA NEGERI 1 SUBAH)</a>
+                            <a href="https://www.facebook.com/pages/SMA-Negeri-1-SUBAH/343878696329115" target="_blank">Facebook (SMA Negeri 1 SUBAH)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kotak-peta">
+                <h2>Peta Lokasi (Google Maps)</h2>
+                <p>Temukan lokasi sekolah kami melalui peta interaktif di bawah:</p>
+                <div class="iframe-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.98453535!2d109.88641711477038!3d-6.976262194967396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e703e47c85db8eb%3A0x2a9df94b9eed8372!2sSMA%20Negeri%201%20Subah!5e0!3m2!1sid!2sid!4v1690000000000!5m2!1sid!2sid" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <section class="bagian-kontak">
+                    <h2>Hubungi Kami</h2>
+                    <p>Silakan isi formulir di bawah ini untuk mengirimkan pesan atau saran.</p>
+                    <form id="formKontak" onsubmit="return validasiForm(event)">
+                        <div class="form-group" style="margin-bottom: 15px;">
+                            <label style="display: block; margin-bottom: 5px;">Nama Lengkap:</label>
+                            <input type="text" id="nama" placeholder="Masukkan nama..." style="width: 100%; padding: 8px;">
+                        </div>
+
+                        <div class="form-group" style="margin-bottom: 15px;">
+                            <label style="display: block; margin-bottom: 5px;">Email:</label>
+                            <input type="email" id="email" placeholder="Masukkan email..." style="width: 100%; padding: 8px;">
+                        </div>
+                        
+                        <div class="form-group" style="margin-bottom: 15px;">
+                            <label style="display: block; margin-bottom: 5px;">Pesan:</label>
+                            <textarea id="pesan" placeholder="Tulis pesan..." style="width: 100%; padding: 8px; height: 100px;"></textarea>
+                        </div>
+
+                        <button type="submit" class="tombol-kirim" style="padding: 10px 20px; cursor: pointer;">Kirim Pesan</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
